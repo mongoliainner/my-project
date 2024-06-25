@@ -5,9 +5,10 @@ function App() {
 
   return (
     <>
-      <div className="bg-sky-500 ~px-4/8">
-        <h3 className="text-6xl text-red-500">react+tailwind</h3>
-      </div>
+      <section className="grid gap-8 md:grid-cols-2 md: item-center md:text-left">
+        <h1 className="text: ">11</h1>
+        <div className="w-full">1</div>
+      </section>
     </>
   );
 }
